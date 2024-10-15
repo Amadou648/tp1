@@ -1,0 +1,69 @@
+body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(to bottom, #1a237e, #3949ab);
+    color: white;
+    margin: 0;
+    padding: 20px;
+}
+
+.container {
+    max-width: 900px;
+    margin: 0 auto;
+    background: #222;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+h1, h2 {
+    text-align: center;
+    color: #ffeb3b;
+}
+
+.afficheFilm {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.distribution-header {
+    background-color: #0d47a1;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+}
+
+.distribution td {
+    padding: 10px;
+    background-color: #1a237e;
+    border-bottom: 1px solid #3949ab;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+ul li a {
+    color: #ffeb3b;
+    text-decoration: none;
+}
+
+ul li a:hover {
+    text-decoration: underline;
+}
+
+.photoActeur {
+    width: 80px;
+    height: 80px;
+    margin: 10px;
+    border-radius: 40px; 
+    background-size: cover;
+    background-position: center; 
+    background-repeat: no-repeat;
+    display: inline-block;
+}
+
